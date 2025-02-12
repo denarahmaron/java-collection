@@ -7,6 +7,7 @@ public class CollectionApp {
         Collection<String> names = new ArrayList<>();
         names.add("Denar");
         names.add("Ahmaron");
+        names.add("Walter");
         names.addAll(Arrays.asList("Surya", "Gemilang"));
 
         names.remove("Denar");
@@ -17,5 +18,6 @@ public class CollectionApp {
         }
 
         System.out.println(names.contains("Ahmaron"));
+        System.out.println(names.containsAll(Arrays.asList("Ahmaron", "Walter")));
     }
 }
