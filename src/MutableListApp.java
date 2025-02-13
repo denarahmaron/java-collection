@@ -2,7 +2,7 @@ import data.Person;
 
 import java.util.List;
 
-public class MutableApp {
+public class MutableListApp {
     public static void main(String[] args) {
         Person person = new Person("Denar");
         person.addHobbies("Coding");

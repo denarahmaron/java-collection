@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ImmutableApp {
+public class ImmutableListApp {
     public static void main(String[] args) {
         List<String> one = Collections.singletonList("One");
         List<String> empty = Collections.emptyList();
