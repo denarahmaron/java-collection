@@ -1,7 +1,6 @@
 package data;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,5 +19,13 @@ public class Person {
 
     public List<String> getHobbies(){
         return Collections.unmodifiableList(hobbies);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
