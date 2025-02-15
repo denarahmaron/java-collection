@@ -5,12 +5,16 @@ import java.util.List;
 
 public class ListApp {
     public static void main(String[] args) {
-//        List<String> strings = new ArrayList<>();
-        List<String> strings = new LinkedList<>();
+        List<String> strings = new ArrayList<>();
+//        List<String> strings = new LinkedList<>();
         strings.add("Denar");
         strings.add("Ahmaron");
         strings.addAll(Arrays.asList("Surya", "Gemilang"));
-        strings.set(1, "Ahmarin");
-        System.out.println(strings.get(1));
+
+        for(var string : strings){
+            System.out.println(string);
+        }
+//        strings.set(1, "Ahmarin");
+//        System.out.println(strings.get(1));
     }
 }
